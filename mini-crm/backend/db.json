@@ -1,0 +1,123 @@
+{
+  "customers": [
+    {
+      "id": "15829a67-1eed-4542-a5f2-b26e3a074eeb",
+      "name": "ayam",
+      "email": "ayam@gmail.com",
+      "phone": "0987654321",
+      "createdAt": "2026-06-12T00:24:33.234Z"
+    },
+    {
+      "id": "bd584ad7-b810-4e32-861b-7de59157aa23",
+      "name": "ikan",
+      "email": "ikan@gmail.com",
+      "phone": "00002222",
+      "createdAt": "2026-06-12T00:33:43.627Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2a914a55-2e47-4470-8409-86cbdb536226",
+      "customer_id": "15829a67-1eed-4542-a5f2-b26e3a074eeb",
+      "items": [
+        {
+          "name": "ds",
+          "qty": 1,
+          "price": 3
+        },
+        {
+          "name": "as",
+          "qty": 31,
+          "price": 20
+        }
+      ],
+      "total_price": 623,
+      "createdAt": "2026-06-12T00:25:07.221Z"
+    },
+    {
+      "id": "da107ff4-4c69-4047-8784-6563f2668051",
+      "customer_id": "bd584ad7-b810-4e32-861b-7de59157aa23",
+      "items": [
+        {
+          "name": "3",
+          "qty": 1,
+          "price": 3333
+        }
+      ],
+      "total_price": 3333,
+      "createdAt": "2026-06-12T00:33:48.922Z"
+    },
+    {
+      "id": "86e884cb-c008-407e-b9e2-eaa645c9f1bc",
+      "customer_id": "15829a67-1eed-4542-a5f2-b26e3a074eeb",
+      "items": [
+        {
+          "name": "dsaw",
+          "qty": 122,
+          "price": 222
+        },
+        {
+          "name": "2",
+          "qty": 1,
+          "price": 2
+        }
+      ],
+      "total_price": 27086,
+      "createdAt": "2026-06-12T00:42:01.269Z"
+    },
+    {
+      "id": "597992d6-5b5d-44ae-a38f-d55320c31f52",
+      "customer_id": "15829a67-1eed-4542-a5f2-b26e3a074eeb",
+      "items": [
+        {
+          "name": "d",
+          "qty": 1,
+          "price": 20
+        },
+        {
+          "name": "2",
+          "qty": 1,
+          "price": 220
+        },
+        {
+          "name": "w",
+          "qty": 1,
+          "price": 20
+        }
+      ],
+      "total_price": 260,
+      "createdAt": "2026-06-12T01:15:39.371Z"
+    },
+    {
+      "id": "3e33768a-f90b-4b8d-88a7-a245ebd527d7",
+      "customer_id": "15829a67-1eed-4542-a5f2-b26e3a074eeb",
+      "items": [
+        {
+          "name": "2",
+          "qty": 1,
+          "price": 20
+        }
+      ],
+      "total_price": 20,
+      "createdAt": "2026-06-12T01:15:49.583Z"
+    },
+    {
+      "id": "13961cb7-f073-4b81-a16a-2c49045a66da",
+      "customer_id": "bd584ad7-b810-4e32-861b-7de59157aa23",
+      "items": [
+        {
+          "name": "d",
+          "qty": 12,
+          "price": 20
+        },
+        {
+          "name": "d",
+          "qty": 1,
+          "price": 20
+        }
+      ],
+      "total_price": 260,
+      "createdAt": "2026-06-12T01:23:10.490Z"
+    }
+  ]
+}
