@@ -1,8 +1,9 @@
 ## Tech Stack
+```
 -Backend: Node.js, Express, TypeScript 
 -Frontend: React, TypeScript, Vite, Bootstrap 5 
 -Storage: File-based JSON (`db.json`)
-
+```
 
 ## Struktur Project
 ```
