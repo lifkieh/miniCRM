@@ -68,4 +68,3 @@ npm run dev
 ## Penjelasan
 
 - jika mau lihat semua order satu customer, klik button [Tampilkan 2 order ->]
-- 
