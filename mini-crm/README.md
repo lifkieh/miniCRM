@@ -1,18 +1,10 @@
-# Mini CRM UMKM Kuliner
-
-Sistem CRM sederhana untuk mencatat data pelanggan dan pesanan warung kuliner.
-
 ## Tech Stack
+Backend: Node.js, Express, TypeScript 
+Frontend: React, TypeScript, Vite, Bootstrap 5 
+Storage: File-based JSON (`db.json`)
 
-| Layer | Teknologi |
-|-------|-----------|
-| Backend | Node.js, Express, TypeScript |
-| Frontend | React, TypeScript, Vite, Bootstrap 5 |
-| Storage | File-based JSON (`db.json`) |
 
 ## Struktur Project
-
-```
 mini-crm/
 ├── backend/
 │   ├── src/
@@ -43,7 +35,7 @@ mini-crm/
     │   │   ├── OrderForm.tsx
     │   │   └── OrderList.tsx
     │   ├── context/
-    │   │   └── CRMContext.tsx   # Global state (Context API)
+    │   │   └── CRMContext.tsx   # Global state 
     │   ├── types/
     │   │   └── index.ts
     │   ├── App.tsx
@@ -52,69 +44,28 @@ mini-crm/
     ├── package.json
     ├── tsconfig.json
     └── vite.config.ts           # Konfigurasi Vite
-```
+
 
 ## Cara Menjalankan
 
 ### Backend
 
-```bash
+cd mini-crm
 cd backend
 npm install
 npm run dev
 # API berjalan di http://localhost:3001
-```
 
 ### Frontend
 
-```bash
+cd mini-crm
 cd frontend
 npm install
 npm run dev
 # UI berjalan di http://localhost:3000
-```
 
-## API Endpoints
 
-| Method | Endpoint | Deskripsi |
-|--------|----------|-----------|
-| `GET` | `/health` | Health check |
-| `POST` | `/customers` | Tambah customer baru |
-| `GET` | `/customers` | Ambil semua customer |
-| `POST` | `/orders` | Tambah order baru |
-| `GET` | `/orders` | Ambil semua order |
-| `GET` | `/orders?customer_id=xxx` | Ambil order milik customer tertentu |
+## Penjelasan
 
-### Contoh Request
-
-**POST /customers**
-```json
-{
-  "name": "Budi Santoso",
-  "email": "budi@email.com",
-  "phone": "08123456789"
-}
-```
-
-**POST /orders**
-```json
-{
-  "customer_id": "uuid-customer",
-  "items": [
-    { "name": "Nasi Goreng", "qty": 2, "price": 15000 },
-    { "name": "Es Teh", "qty": 2, "price": 5000 }
-  ],
-  "total_price": 40000
-}
-```
-
-## Fitur
-
-- ✅ Tambah & lihat daftar customer
-- ✅ Tambah & lihat daftar order
-- ✅ Filter order per customer (klik customer di daftar)
-- ✅ Statistik: total customer, order, pendapatan, pelanggan loyal
-- ✅ Context API untuk state management global
-- ✅ Validasi input di backend & frontend
-- ✅ Error handling terpusat
-- ✅ Styling dengan Bootstrap 5
+- jika mau lihat semua order satu customer, klik button [Tampilkan 2 order ->]
+- 

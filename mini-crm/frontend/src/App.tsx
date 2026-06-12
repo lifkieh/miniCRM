@@ -18,7 +18,7 @@ function Dashboard() {
       {/* Navbar */}
       <nav className="navbar navbar-dark bg-primary mb-4">
         <div className="container-fluid">
-          <span className="navbar-brand fw-bold">☕ Mini CRM Kuliner</span>
+          <span className="navbar-brand fw-bold">MiniCRM</span>
           <div className="d-flex align-items-center gap-2">
             {selectedCustomerId && (
               <button className="btn btn-sm btn-outline-light" onClick={() => dispatch({ type: 'SELECT_CUSTOMER', payload: null })}>
@@ -36,7 +36,7 @@ function Dashboard() {
           {[
             { label: 'Total Customer', value: customers.length, icon: '👥', color: 'primary' },
             { label: 'Total Order', value: orders.length, icon: '🛒', color: 'success' },
-            { label: 'Total Pendapatan', value: `Rp ${totalRevenue.toLocaleString('id-ID')}`, icon: '💰', color: 'warning' },
+            { label: 'Total Pendapatan', value: `Rp ${totalRevenue.toLocaleString('id-ID')}`, icon: '$', color: 'warning' },
             { label: 'Pelanggan Loyal', value: loyalCustomers, icon: '⭐', color: 'danger' },
           ].map((stat, i) => (
             <div key={i} className="col-6 col-md-3">
@@ -68,7 +68,7 @@ function Dashboard() {
         </div>
 
         <footer className="text-center text-muted py-4 mt-4 border-top">
-          <small>Mini CRM UMKM Kuliner · Dibuat dengan React + TypeScript + Node.js</small>
+          <small>MiniCRM · Dibuat dengan React + TypeScript + Node.js</small>
         </footer>
       </div>
     </div>
