@@ -1,3 +1,4 @@
+```
 ## Tech Stack
 Backend: Node.js, Express, TypeScript 
 Frontend: React, TypeScript, Vite, Bootstrap 5 
