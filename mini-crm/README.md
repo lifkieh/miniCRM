@@ -1,10 +1,11 @@
 ## Tech Stack
-Backend: Node.js, Express, TypeScript 
-Frontend: React, TypeScript, Vite, Bootstrap 5 
-Storage: File-based JSON (`db.json`)
+-Backend: Node.js, Express, TypeScript 
+-Frontend: React, TypeScript, Vite, Bootstrap 5 
+-Storage: File-based JSON (`db.json`)
 
 
 ## Struktur Project
+```
 mini-crm/
 ├── backend/
 │   ├── src/
@@ -44,7 +45,7 @@ mini-crm/
     ├── package.json
     ├── tsconfig.json
     └── vite.config.ts           # Konfigurasi Vite
-
+```
 
 ## Cara Menjalankan
 
