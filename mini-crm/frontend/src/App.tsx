@@ -34,10 +34,10 @@ function Dashboard() {
         {/* Stats */}
         <div className="row g-3 mb-4">
           {[
-            { label: 'Total Customer', value: customers.length, icon: '👥', color: 'primary' },
-            { label: 'Total Order', value: orders.length, icon: '🛒', color: 'success' },
-            { label: 'Total Pendapatan', value: `Rp ${totalRevenue.toLocaleString('id-ID')}`, icon: '$', color: 'warning' },
-            { label: 'Pelanggan Loyal', value: loyalCustomers, icon: '⭐', color: 'danger' },
+            { label: 'Total Customer', value: customers.length, icon: '@@', color: 'primary' },
+            { label: 'Total Order', value: orders.length, icon: '++', color: 'success' },
+            { label: 'Total Pendapatan', value: `Rp ${totalRevenue.toLocaleString('id-ID')}`, icon: '$$', color: 'warning' },
+            { label: 'Pelanggan Loyal', value: loyalCustomers, icon: '**', color: 'danger' },
           ].map((stat, i) => (
             <div key={i} className="col-6 col-md-3">
               <div className={`card border-${stat.color} border-2`}>
